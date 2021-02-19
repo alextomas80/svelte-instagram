@@ -42,3 +42,11 @@ npm i svelte-instagram --save
 ## Limitaciones
 
 Cómo máximo se podrán mostrar las últimas 12 imágenes.
+
+# Sapper
+
+Si utilizas el componente con **Sapper** te dará un error de **SSR**. Entonces, tendrás que instalar el componente como dependencia de desarrollo:
+
+```bash
+npm i -D svelte-instagram
+```
