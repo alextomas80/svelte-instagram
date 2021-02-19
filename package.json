@@ -1,0 +1,39 @@
+{
+  "name": "svelte-instagram",
+  "version": "1.0.14",
+  "description": "Carrusel de imágenes de tu cuenta de Instagram.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "svelte": "src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "author": "Alex Tomás",
+  "repository": "https://github.com/alextomas80/svelte-instagram",
+  "bugs": {
+    "url": "https://github.com/alextomas80/svelte-instagram/issues"
+  },
+  "homepage": "https://alextomas.com",
+  "keywords": [
+    "svelte",
+    "instagram",
+    "carrusel",
+    "carousel",
+    "gallery"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^2.39.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.32.3"
+  },
+  "files": [
+    "src",
+    "index.mjs",
+    "index.js",
+    "index.d.ts",
+    "InstagramCarousel.js"
+  ]
+}
