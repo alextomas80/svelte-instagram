@@ -1,6 +1,6 @@
 {
   "name": "svelte-instagram",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Carrusel de imágenes de tu cuenta de Instagram.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
